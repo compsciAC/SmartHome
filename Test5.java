@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Step5 {
     public static void main(String[] args) {
-         SmartHome smartdevices = new SmartHome(6);
+        SmartHome smartdevices = new SmartHome(6);
         SmartDevice smartdevice1 = new SmartDevice("Device 1", 8.1,false);
         smartdevices.insertDevice(smartdevice1);
         SmartDevice smartdevice2 = new SmartDevice("Device 2", 6.8, false);
